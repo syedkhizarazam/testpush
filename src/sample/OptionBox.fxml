@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="200.0" prefWidth="266.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <RadioButton layoutX="50.0" layoutY="103.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="13.0">
+         <toggleGroup>
+            <ToggleGroup fx:id="NewTog" />
+         </toggleGroup></RadioButton>
+      <RadioButton layoutX="201.0" layoutY="103.0" mnemonicParsing="false" toggleGroup="$NewTog" />
+      <ImageView fitHeight="79.0" fitWidth="65.0" layoutX="28.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image backgroundLoading="true" url="@axe.gif" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="69.0" fitWidth="65.0" layoutX="179.0" layoutY="18.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image backgroundLoading="true" url="@boat.gif" />
+         </image>
+      </ImageView>
+      <Button layoutX="88.0" layoutY="141.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="90.0" text="Submit" />
+   </children>
+</Pane>
